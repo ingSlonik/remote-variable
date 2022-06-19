@@ -8,11 +8,10 @@ Work with variable from another worker, process or javascript environment as wit
 import { onRemoteVariable, connectRemoteVariable } from "remote-variable";
 
 onRemoteVariable(postMessage, onMessage, (id, remoteVariable) => {
-    if (id === "document") 
-        const document = remoteVariable as Document;
+    if (id === "document") document = remoteVariable as Document;
 });
 // or
-const [document) = await connectRemoteVariable<Document>("document", postMessage, onMessage);
+const [document] = await connectRemoteVariable<Document>("document", postMessage, onMessage);
 
 // now you can draw to remote canvas from nodejs
 const canvas = document.getElementById("my-canvas");
