@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "lib",
+        "module": "CommonJS",
+        "target": "es5",
+        "noImplicitAny": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "strictNullChecks": true
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}
