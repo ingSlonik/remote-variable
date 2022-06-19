@@ -1,4 +1,4 @@
-import { MessageRemote, MessageRemoteString, MessageClient, MessageClientString } from "./types";
+import { MessageRemote, MessageRemoteString, MessageClient, MessageClientString } from "../types";
 
 
 export function stringifyMessageRemote(message: MessageRemote): MessageRemoteString {

@@ -1,5 +1,5 @@
 import { parseMessageRemote, stringifyMessageClient } from "./common";
-import { OnMessage, PostMessage, VariableRemote, Variable } from "./types";
+import { OnMessage, PostMessage, VariableRemote, Variable } from "../types";
 
 // variable event unique
 let variableIndex = 0;

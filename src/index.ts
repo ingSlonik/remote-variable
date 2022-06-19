@@ -1,9 +1,9 @@
 import { loopWhile } from "deasync";
 
 import { parseMessageClient, stringifyMessageRemote } from "./common";
-import { MessageRemote, OnMessage, PostMessage, RemoteVariable, Variable, VariablePrimitive } from "./types";
+import { MessageRemote, OnMessage, PostMessage, RemoteVariable, Variable, VariablePrimitive } from "../types";
 
-export type { PostMessage, OnMessage } from "./types";
+export type { PostMessage, OnMessage } from "../types";
 
 // every event unique
 let eventIndex = 0;
